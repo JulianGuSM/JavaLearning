@@ -20,6 +20,8 @@
       <root url="jar://$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aspectjweaver-1.6.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/system-rules-1.16.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

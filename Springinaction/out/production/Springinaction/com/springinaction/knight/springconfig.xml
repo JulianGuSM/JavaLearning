@@ -15,11 +15,11 @@
         <constructor-arg value="#{T(System).out}"/>
     </bean>
 
-    <!--<aop:config>-->
-        <!--<aop:aspect ref="minstrel">-->
-            <!--<aop:pointcut id="embark" expression="execution(* *.embarkOnQuest(..))" />-->
-            <!--<aop:before method="singBeforeQuest" pointcut-ref="embark"/>-->
-            <!--<aop:after method="singAfterQuest" pointcut-ref="embark"/>-->
-        <!--</aop:aspect>-->
-    <!--</aop:config>-->
+    <aop:config>
+        <aop:aspect ref="minstrel">
+            <aop:pointcut id="embark" expression="execution(* *.embarkOnQuest(..))" />
+            <aop:before method="singBeforeQuest" pointcut-ref="embark"/>
+            <aop:after method="singAfterQuest" pointcut-ref="embark"/>
+        </aop:aspect>
+    </aop:config>
 </beans>
